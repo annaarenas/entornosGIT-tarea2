@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development Methodologies</title>
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header a {
+        color: #ff5733; /* Change to any color you prefer */
+        text-decoration: none; /* Optional: removes underline */
+        }
+
+        header a:hover {
+            color: #ffffff; /* Color when the user hovers over the link */
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f9f9f9;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #007BFF;
+        }
+        ul li:nth-child(even) {
+            background: #f0f0f0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Development Methodologies</h1>
+        <p>By Dayron Flores and Anna Arenas</p>
+        <nav>
+            <a href="git_commands.html">Go to Git Commands</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Agile Methodologies</h2>
+        <h3>The Agile Manifesto</h3>
+        <p>The Agile Manifesto emphasizes individuals, interactions, working software, customer collaboration, and responsiveness to change.</p>
+
+        <h3>Common Practices</h3>
+        <h4>Pair Programming (PP)</h4>
+        <p>Pair programming involves two developers working together on the same computer. One writes code (driver), while the other reviews it (observer). They swap roles periodically. Benefits include reduced errors, better design, and learning opportunities. However, it can be costly and may not suit everyone.</p>
+
+        <h4>Test-Driven Development (TDD)</h4>
+        <p>TDD involves writing test cases before coding. The process includes:</p>
+        <ol>
+            <li>Add a new test.</li>
+            <li>Write code to pass the test.</li>
+            <li>Run all tests to ensure they pass.</li>
+            <li>Refactor the code for optimization.</li>
+        </ol>
+        <p>This approach ensures code meets requirements and avoids unnecessary development.</p>
+
+        <h3>Scrum</h3>
+        <p>Scrum is an iterative and incremental framework for managing complex projects.</p>
+        <ul>
+            <li><strong>Roles:</strong> ScrumMaster, Product Owner, and Developers.</li>
+            <li><strong>Process:</strong> Features are described as user stories and organized in a backlog. Development occurs in iterations (sprints), typically 2-4 weeks long.</li>
+            <li><strong>Meetings:</strong> Planning meetings, daily standups, and review meetings after each sprint.</li>
+        </ul>
+
+        <h2>Traditional Methodologies</h2>
+        <h3>Rational Unified Process (RUP)</h3>
+        <p>RUP is a framework for software development that emphasizes iterative development, use cases, and risk management.</p>
+
+        <h3>Microsoft Solutions Framework (MSF)</h3>
+        <p>MSF is a flexible framework for managing projects and processes, often used for enterprise-scale software solutions.</p>
+    </div>
+    <footer>
+        <p>© 2024 - Dayron Flores & Anna Arenas</p>
+    </footer>
+</body>
+</html>
