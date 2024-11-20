@@ -1,3 +1,5 @@
 enlace GitHub: https://github.com/annaarenas/entornosGIT-tarea2.git
 
+enlace a la web de GitHub: https://annaarenas.github.io/entornosGIT-tarea2/git_commands.html 
+
 enlace Trello: https://trello.com/invite/b/673757e2678c83e2c38099d3/ATTI77f13859eb17cdbe8234445c3def1a87E61DEEFE/tablero-git-entornos
